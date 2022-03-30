@@ -1,0 +1,60 @@
+body{
+   margin: 0;
+   padding: 0
+}
+
+header{
+    display:flex;
+    justify-content:center;
+    height:120px;
+}
+.container{
+    display:flex;justify-content:space-between;
+    width:990px;
+    
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.menu{
+
+    display:flex;
+    align-items:center;
+    
+}
+
+nav ul, nav li{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+nav ul{
+    display:flex;
+}
+
+nav a{
+    text-decoration:none;
+    display:block;
+    padding:15px;
+    text-transform: uppercase;
+    color:#727272;
+    font-family: arial,sans-serif;
+}
+
+nav a:hover{
+    background-color: blue;
+    color: #fff;
+    
+}
+
+.banner{
+    background-image: url(../image/img1.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:670px;
+}
