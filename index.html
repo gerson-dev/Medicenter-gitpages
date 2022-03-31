@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, user-scalable=0">
     <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+        </script>
     <title>medicenter</title>
 </head>
 <body>
@@ -19,6 +31,11 @@
 
             <div class="menu">
                 <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">Sobre</a></li>
@@ -52,7 +69,7 @@
                 <div class="banner3">
                     <div class="banner_title">Opening Hours</div>
                     <div class="date_hour">
-                        <div>monday - Friday</div>
+                        <div>Monday - Friday</div>
                         <div>08:00 - 17:00</div>
                     </div>
 
@@ -72,5 +89,196 @@
         </div>
         
     </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">30 Mar 22</div>
+                                    <div class="news_coments">10</div>
+                                </div>
+    
+                                <div class="thunbnail">
+                                    <img src="./assets/image/dr.jpg" alt="" srcset="">
+                                </div>
+    
+                                <div class="thunbnail_title">
+                                    Lorem ipsum dolor sit amet.
+                                </div>
+    
+                                <div class="thunbnail_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Nostrum ducimus dignissimos facere quisquam inventore quae animi
+                                     Nostrum ducimus dignissimos facere quisquam inventore quae animi
+                                     dolores exercitationem a aspernatur.
+                                     dolores exercitationem a aspernatur.
+                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Nostrum ducimus dignissimos facere quisquam inventore quae animi
+                                     Nostrum ducimus dignissimos facere quisquam inventore quae animi
+                                     dolores exercitationem a aspernatur.
+                                     dolores exercitationem a aspernatur.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">30 Mar 22</div>
+                                    <div class="news_coments">10</div>
+                                </div>
+    
+                                <div class="thunbnail">
+                                    <img src="./assets/image/dr.jpg" alt="" srcset="">
+                                </div>
+    
+                                <div class="thunbnail_title">
+                                    Lorem ipsum dolor sit amet.
+                                </div>
+    
+                                <div class="thunbnail_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Nostrum ducimus dignissimos facere quisquam inventore quae animi
+                                     Nostrum ducimus dignissimos facere quisquam inventore quae animi
+                                     dolores exercitationem a aspernatur.
+                                     dolores exercitationem a aspernatur.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">30 Mar 22</div>
+                                    <div class="news_coments">10</div>
+                                </div>
+    
+                                <div class="thunbnail">
+                                    <img src="./assets/image/dr.jpg" alt="" srcset="">
+                                </div>
+    
+                                <div class="thunbnail_title">
+                                    Lorem ipsum dolor sit amet.
+                                </div>
+    
+                                <div class="thunbnail_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Nostrum ducimus dignissimos facere quisquam inventore quae animi
+                                     Nostrum ducimus dignissimos facere quisquam inventore quae animi
+                                     dolores exercitationem a aspernatur.
+                                     dolores exercitationem a aspernatur.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">30 Mar 22</div>
+                                    <div class="news_coments">10</div>
+                                </div>
+    
+                                <div class="thunbnail">
+                                    <img src="./assets/image/dr.jpg" alt="" srcset="">
+                                </div>
+    
+                                <div class="thunbnail_title">
+                                    Lorem ipsum dolor sit amet.
+                                </div>
+    
+                                <div class="thunbnail_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Nostrum ducimus dignissimos facere quisquam inventore quae animi
+                                     Nostrum ducimus dignissimos facere quisquam inventore quae animi
+                                     dolores exercitationem a aspernatur.
+                                     dolores exercitationem a aspernatur.
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departaments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body_square">
+                        <div class="widget_square"><a href="">Geriatria</a></div>
+                        <div class="widget_square"><a href="">Oncologia</a></div>
+                        <div class="widget_square"><a href="">Pediatria</a></div>
+                        <div class="widget_square"><a href="">Nutrição</a></div>
+                        <div class="widget_square"><a href="">cardiologia</a></div>
+                        <div class="widget_square"><a href="">linica geral</a></div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make An Appointement</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="contact_phone">
+                            <img class="img_phone" src="/assets/image/icons8-telefone-celular-30.png"/>
+                            by phone: <strong>1-800-643-05</strong>
+                            <div class="contact_phone_bar_bottom"></div>
+                        </div>
+                        <div class="contact_email">
+                            <img class="img_email" src="/assets/image/icons8-email-64.png"/>
+                            by email: <strong>medicenter@gmail.com</strong>
+                            <div class="contact_email_bar_bottom"></div>
+                        </div>
+                        <div class="contact_page">
+                            <img class="img_page" src="/assets/image/icons8-formato-50.png"/>
+                            or <strong>fill on the form</strong> on our contact page
+                            <div class="contact_page_bar_bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flex_column">
+            <div class="footer_menu">
+                <div class="fm1">...</div>
+                <div class="fm2">..</div>
+                <div class="fm3">...</div>
+            </div>
+
+            <div class="footer-area">
+                <div class="footer_item">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Medicenter Clinic</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                </div>
+                <div class="footer_item">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                </div>
+                <div class="footer_item">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest Tweets</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copy">
+                &copy; Copyright 2022. Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
